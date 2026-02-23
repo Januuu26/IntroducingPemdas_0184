@@ -13,6 +13,6 @@ int main(){ //program utama
     
     cout << "Hello Wold" << endl;
     cout << 99  << endl;
-    cout << age;
-    cout << age1;
+    cout << age << endl;
+    cout << age1 << endl;
 }
