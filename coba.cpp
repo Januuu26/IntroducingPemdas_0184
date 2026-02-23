@@ -18,3 +18,4 @@ int main(){ //program utama
     cout << age << endl;
     cout << age1 << endl;
     cout << age2 << endl;
+}
