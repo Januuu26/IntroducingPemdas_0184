@@ -5,7 +5,7 @@ using namespace std;
 float phi = 3.14159;
     int r;
 
-float input() {
+void input() {
     cout << "Masukkan luas: ";
     cin >> r; 
 }
@@ -18,10 +18,13 @@ float jumlah(float phi, float r) {
 
 }
 
-
+void output() {
+    cout << "Hasilnya : " << luasLingkaran(r) << endl;
+}
 
 int main() {
     input();
     output();
     cout << "Hasil dari penjumlahan : " << jumlah(phi, r) << endl;
 }
+
