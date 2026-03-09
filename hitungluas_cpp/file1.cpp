@@ -1,4 +1,4 @@
-#include iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -11,4 +11,6 @@ int main() {
         x = x+1;
         cout<<"Nilai x sudah dikoreksi menjadi "<<x<<endl;
     }
+
+    cout << "Bilangan yang diberikan =" <<x;
 }
